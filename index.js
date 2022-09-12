@@ -23,8 +23,9 @@ let time_regex = /^(0[0-9]|1\d|2[0-3])\:(00)/;
 
 app.get("/", function (req, res) {
   res.json({
-    output: "Homepage",
+      output: "Homepage"
   });
+
 });
 
 app.get('/getAllRooms',function(req,res)
