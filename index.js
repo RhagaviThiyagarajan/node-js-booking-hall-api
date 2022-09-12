@@ -19,10 +19,7 @@ let date_regex = /^(0[1-9]|1[0-2])\/(0[1-9]|1\d|2\d|3[01])\/(19|20)\d{2}$/;
 let time_regex = /^(0[0-9]|1\d|2[0-3])\:(00)/;
 
 app.get("/", function (req, res) {
-        res.json({
-            output: "Homepage"
-        });
-
+     console.log("homepage")
   });
 
   app.get("/getAllRooms", function (req, res) {
